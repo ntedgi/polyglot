@@ -1,0 +1,11 @@
+<form [formGroup]="textMessageInput" (ngSubmit)="onSubmit()" novalidate>
+  <div chat-input>
+    <input type="text" chat-text-input pInputText formControlName="text" placeholder="" required #text/>
+    <div class="input-group-append">
+      <button pButton type="submit" pButton label="Send" [disabled]="!textMessageInput.valid"
+      >
+      </button>
+    </div>
+  </div>
+</form>
+

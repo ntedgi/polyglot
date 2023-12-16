@@ -1,0 +1,21 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  ul.message-list {
+    height:400px;
+    overflow: scroll;
+    list-style: none;
+    padding: 0;
+
+    li.message-list-item {
+      padding: 10px 0;
+      border-top: lightgray;
+      border: 1px solid gray;
+      border-left: none;
+      border-right: none;
+      border-top: none;
+    }
+  }
+}

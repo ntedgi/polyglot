@@ -1,0 +1,8 @@
+<ul class="message-list" #scroll>
+  <li *ngFor="let message of messages" class="message-list-item">
+    <app-message [message]="message"></app-message>
+  </li>
+</ul>
+<chat-input
+  (onMessage)="handleMessage($event)"
+></chat-input>

@@ -1,0 +1,13 @@
+span {
+  margin-left: 5px;
+  &.user-name {
+    color: sandybrown;
+    font-weight: bold;
+    &::after {
+      content: ":";
+    }
+  }
+  &.time {
+    font-size: 12px;
+  }
+}

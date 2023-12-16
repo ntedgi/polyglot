@@ -1,0 +1,26 @@
+[window] {
+  width: 100%;
+  height: 100vh;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./assets/app-background.jpg");
+}
+
+
+[input-field-header] {
+  font-weight: 600;
+  padding-bottom: 8px;
+}
+
+
+[input-field-text-input] {
+  width: 100%;
+  flex: 1;
+  display: flex;
+}
+
+[input-field-text-section]{
+    flex-grow: inherit;
+}

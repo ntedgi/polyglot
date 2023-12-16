@@ -1,0 +1,8 @@
+<div connected-users>
+  <span header>ONLINE-{{usersList.length}}</span>
+  <ul class="list-group" *ngIf="usersList.length">
+    <li *ngFor="let user of usersList" class="list-group-item">
+      {{ user.name }}
+    </li>
+  </ul>
+</div>

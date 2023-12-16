@@ -1,0 +1,19 @@
+[sign-up-container]{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+[welcome]{
+    display: flex;
+    justify-content: space-between;
+}
+[entry-tab]{
+    height: 300px;
+
+}
+[note]{
+  padding: 10px;
+  font-size: 10px;
+  color:slategrey;
+}
